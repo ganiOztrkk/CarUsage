@@ -1,0 +1,38 @@
+@model IList<VehicleViewModel>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+@if (Model is null)
+{
+    <div class="text-center">
+        <p>Araç Kaydı Yok</p>
+    </div>
+}
+else
+{
+    <div class="text-center justify-content-center">
+        <table class="table table-bordered">
+            <tr>
+                <th>Araç Adı</th>
+                <th>Araç Plakası</th>
+                <th>Aktif Çalışma Süresi</th>
+                <th>Bakım Süresi</th>
+                <th>Boşta Bekleme Süresi</th>
+                <th>Güncelle</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.PlateId</td>
+                    <td>@item.ActiveUsageTime</td>
+                    <td>@item.RepairTime</td>
+                    <td>@item.IdleTime</td>
+                    <td><a asp-controller="Home" asp-action="UpdateVehicle" asp-route-id="@item.Id" class="btn btn-warning">Güncelle</a></td>
+                </tr>
+            }
+        </table>
+    </div>
+}

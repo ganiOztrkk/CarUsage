@@ -1,0 +1,15 @@
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/bin/Debug/net8.0/CarUsage.Domain.deps.json
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/bin/Debug/net8.0/CarUsage.Domain.dll
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/bin/Debug/net8.0/CarUsage.Domain.pdb
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/obj/Debug/net8.0/CarUsage.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/obj/Debug/net8.0/CarUsage.Domain.AssemblyInfoInputs.cache
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/obj/Debug/net8.0/CarUsage.Domain.AssemblyInfo.cs
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/obj/Debug/net8.0/CarUsage.Domain.csproj.CoreCompileInputs.cache
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/obj/Debug/net8.0/CarUsage.Domain.dll
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/obj/Debug/net8.0/refint/CarUsage.Domain.dll
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/obj/Debug/net8.0/CarUsage.Domain.pdb
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/obj/Debug/net8.0/ref/CarUsage.Domain.dll
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/obj/Debug/net8.0/CarUsage.Domain.csproj.AssemblyReference.cache
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/bin/Debug/net8.0/CarUsage.Core.dll
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/bin/Debug/net8.0/CarUsage.Core.pdb
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/obj/Debug/net8.0/CarUsage.28640611.Up2Date

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "bUb+HUKnG8am5n6rI2l0QPELHUcSMXZpbNv5BIZGGlk=",
+  "Source": "CarUsage.WebApi",
+  "BasePath": "_content/CarUsage.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

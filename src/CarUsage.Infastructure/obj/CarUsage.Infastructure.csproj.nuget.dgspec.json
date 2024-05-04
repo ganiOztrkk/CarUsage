@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Infastructure/CarUsage.Infastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/CarUsage.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/CarUsage.Core.csproj",
+        "projectName": "CarUsage.Core",
+        "projectPath": "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/CarUsage.Core.csproj",
+        "packagesPath": "/Users/gani/.nuget/packages/",
+        "outputPath": "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gani/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/CarUsage.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/CarUsage.Domain.csproj",
+        "projectName": "CarUsage.Domain",
+        "projectPath": "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/CarUsage.Domain.csproj",
+        "packagesPath": "/Users/gani/.nuget/packages/",
+        "outputPath": "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gani/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/CarUsage.Core.csproj": {
+                "projectPath": "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/CarUsage.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Infastructure/CarUsage.Infastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Infastructure/CarUsage.Infastructure.csproj",
+        "projectName": "CarUsage.Infastructure",
+        "projectPath": "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Infastructure/CarUsage.Infastructure.csproj",
+        "packagesPath": "/Users/gani/.nuget/packages/",
+        "outputPath": "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Infastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gani/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/CarUsage.Domain.csproj": {
+                "projectPath": "/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Domain/CarUsage.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

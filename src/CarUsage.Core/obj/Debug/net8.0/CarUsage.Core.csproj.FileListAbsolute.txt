@@ -1,0 +1,12 @@
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/bin/Debug/net8.0/CarUsage.Core.deps.json
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/bin/Debug/net8.0/CarUsage.Core.dll
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/bin/Debug/net8.0/CarUsage.Core.pdb
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/obj/Debug/net8.0/CarUsage.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/obj/Debug/net8.0/CarUsage.Core.AssemblyInfoInputs.cache
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/obj/Debug/net8.0/CarUsage.Core.AssemblyInfo.cs
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/obj/Debug/net8.0/CarUsage.Core.csproj.CoreCompileInputs.cache
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/obj/Debug/net8.0/CarUsage.Core.dll
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/obj/Debug/net8.0/refint/CarUsage.Core.dll
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/obj/Debug/net8.0/CarUsage.Core.pdb
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/obj/Debug/net8.0/ref/CarUsage.Core.dll
+/Users/gani/Desktop/Inovasyon_Case/CarUsage/src/CarUsage.Core/obj/Debug/net8.0/CarUsage.Core.csproj.AssemblyReference.cache

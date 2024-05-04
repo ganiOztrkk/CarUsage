@@ -1,0 +1,27 @@
+﻿@model CreateVehicleViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="text-center justify-content-center">
+    <form asp-action="CreateVehicle" asp-controller="Home" method="post">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="d-flex align-items-center justify-content-center">
+            <div class="form-group">
+                <label>Araç Adı</label>
+                <input class="form-control" type="text" asp-for="Name" required/>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group ms-1">
+                <label>Plaka</label>
+                <input class="form-control" type="text" asp-for="PlateId" required/>
+                <span asp-validation-for="PlateId" class="text-danger"></span>
+            </div>
+            <div class="form-group ms-2 mt-4">
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+            </div>
+        </div>
+    </form>
+</div>

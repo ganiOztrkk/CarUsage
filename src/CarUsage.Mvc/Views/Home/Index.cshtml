@@ -1,0 +1,114 @@
+@using System.Text.Json
+@model ChartValues
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+@if (Model is null)
+{
+    <div class="text-center">
+        <p>Araç Kaydı Yok</p>
+    </div>
+}
+else
+{
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="chart-container" style="position: relative; height:40vh; width:80vw">
+                    <canvas id="myChart"></canvas>
+                </div>
+            </div>
+
+            <div class="col-md-12" style="margin-top: 20px;">
+                <div class="chart-container" style="position: relative; height:40vh; width:80vw">
+                    <canvas id="myChart2"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+    var vehiclePlates = @Html.Raw(JsonSerializer.Serialize(Model.VehiclePlate));
+    var activeTimePercentages = @Html.Raw(JsonSerializer.Serialize(Model.ActiveTimePercentages));
+    var idleTimePercentages = @Html.Raw(JsonSerializer.Serialize(Model.IdleTimePercentages));
+    
+    var backgroundColors = activeTimePercentages.map(function(value) {
+        if (value > 75) return 'rgba(47, 255, 0, 0.5)';
+        else if (value > 50) return 'rgba(47, 255, 0, 0.2)';
+        else if (value > 25) return 'rgba(255, 25, 0, 0.2)';
+        else return 'rgba(255, 25, 0, 0.6)';
+    });
+
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'bar', // Grafik tipi
+        data: {
+            labels: vehiclePlates, // X ekseni etiketleri
+            datasets: [{
+                label: 'Araç Aktif Süre Grafiği',
+                data: activeTimePercentages,
+                backgroundColor: backgroundColors,
+                borderColor: 'rgba(153, 102, 255, 1)',
+                borderWidth: 1,
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 100,
+                    ticks: {
+                        callback: function(value) {
+                            return value + '%';
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+    // İkinci tablo için veriler ve ayarlar
+    var backgroundColors2 = idleTimePercentages.map(value => {
+        if (value > 75) return 'rgba(255, 25, 0, 0.6)';
+        else if (value > 50) return 'rgba(255, 25, 0, 0.2)';
+        else if (value > 25) return 'rgba(47, 255, 0, 0.2)';
+        else return 'rgba(47, 255, 0, 0.5)';
+    });
+
+    var ctx2 = document.getElementById('myChart2').getContext('2d');
+    var myChart2 = new Chart(ctx2, {
+        type: 'bar',
+        data: {
+            labels: vehiclePlates,
+            datasets: [{
+                label: 'Araç Boşta Kalma Grafiği',
+                data: idleTimePercentages,
+                backgroundColor: backgroundColors2,
+                borderColor: 'rgba(153, 102, 255, 1)',
+                borderWidth: 1,
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 100,
+                    ticks: {
+                        callback: function(value) {
+                            return value + '%';
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+</script>
+}

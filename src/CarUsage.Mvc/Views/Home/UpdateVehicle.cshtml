@@ -1,0 +1,28 @@
+@model UpdateVehicleViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="text-center justify-content-center">
+    <form asp-action="UpdateVehicle" asp-controller="Home" method="post">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="d-flex align-items-center justify-content-center">
+            <input type="hidden" asp-for="Id"/>
+            <div class="form-group">
+                <label>Aktif Kullanım Süresi</label>
+                <input class="form-control" type="text" asp-for="ActiveUsageTime" required/>
+                <span asp-validation-for="ActiveUsageTime" class="text-danger"></span>
+            </div>
+            <div class="form-group ms-1">
+                <label>Bakım Süresi</label>
+                <input class="form-control" type="text" asp-for="RepairTime" required/>
+                <span asp-validation-for="RepairTime" class="text-danger"></span>
+            </div>
+            <div class="form-group ms-2 mt-4">
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+            </div>
+        </div>
+    </form>
+</div>
